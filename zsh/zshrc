@@ -165,3 +165,4 @@ if [[ $- == *i* && $0 == '/usr/bin/zsh' ]]; then
 fi
 
 # vim: nospell
+export PATH=/opt/homebrew/bin:/Users/sadjad/.nvm/versions/node/v18.13.0/bin:/Users/sadjad/.local/bin:/Users/sadjad/.config/composer/vendor/bin:/Users/sadjad/.go/bin:/Users/sadjad/.cargo/bin:./vendor/bin:/Users/sadjad/.local/share/bob/nvim-bin:/Users/sadjad/Code/jessarcher/dotfiles/scripts:tools/:platform-tools/:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/sadjad/development/flutter/bin:/Users/sadjad/Library/Android/sdk/tools/bin:/opt/homebrew/opt/openjdk/bin:/cmdline-tools/latest/bin
