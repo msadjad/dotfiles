@@ -30,6 +30,8 @@ shift + alt - m : yabai -m window --toggle zoom-fullscreen
 
 # balance out tree of windows (resize to occupy same area)
 shift + alt - f : yabai -m space --balance
+# alt + + : ~/.config/yabai/increase_window_size.sh
+# alt + - : ~/.config/yabai/decrease_window_size.sh
 
 # swap windows
 shift + alt - j : yabai -m window --swap south
