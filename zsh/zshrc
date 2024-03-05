@@ -171,3 +171,13 @@ export PATH=/opt/homebrew/bin:/Users/sadjad/.nvm/versions/node/v18.13.0/bin:/Use
 # developer toolbox
 source $HOME/Code/Emma/developer-toolbox/developer-toolbox.sh
 
+
+# pnpm
+export PNPM_HOME="/Users/sadjad/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+PATH=~/.console-ninja/.bin:$PATH
