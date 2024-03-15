@@ -44,3 +44,15 @@ rm -rf $HOME/.config/skhd
 rm -rf $HOME/.config/yabai
 ln -sf $DOTFILES/skhd/ $HOME/.config/skhd
 ln -sf $DOTFILES/yabai/ $HOME/.config/yabai
+
+# The target directory where VSCode configurations are stored
+VSCODE_USER_DIR="$HOME/Library/Application Support/Code/User"
+
+# Create the target directory if it doesn't already exist
+mkdir -p "$VSCODE_USER_DIR"
+
+# Loop through each item in the vscode directory and create a symbolic link in the target directory
+for item in "$DOTFILES/vscode/"*; do
+    ln -sf "$item" "$VSCODE_USER_DIR/$(basename "$item")"
+done
+
